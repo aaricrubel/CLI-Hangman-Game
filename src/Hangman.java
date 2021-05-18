@@ -46,7 +46,8 @@ public class Hangman {
                 } else {
                     System.out.println("OOPS! That letter is not in your word: " + get_guessed_word(secret_word, letters_guessed));
                     System.out.println("Your remaining lives are: " + remaining_lives);
-                    System.out.println("Type '?' for hint");
+                    System.out.println("Type '?' for hint!");
+                    System.out.print("  Please Note that you can only use the hint once");
                     letters_guessed.add(letter);
                     System.out.println();
                     Images img = new Images();
